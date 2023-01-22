@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get in touch
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#contact"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -102,17 +102,17 @@ params:
     - title: Software development
       icon: mouse-globe
       text: Build reliable and scalable applications
-      url: /
+      url: /#contact
       buttonText: Get started
     - title: Cloud integration
       icon: laptop-cloud
       text: Integrate with leading cloud providers
-      url: /
+      url: /#contact
       buttonText: Get started
     - title: Maintenance
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
-      url: /
+      url: /#contact
       buttonText: Get started
   # section2:
   #   title: You're here because you want the best
@@ -133,21 +133,21 @@ params:
     subtitle: To rule them all
     image: illustrations/views/slider-3.jpg
     buttonText: Get in contact
-    buttonLink: "#"
+    buttonLink: "#contact"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
     - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: An excellent feedback that is missing. Drop it
       job: Accountant
       img: 1
     - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: Fabulous message from yet unknown client
       job: Financial Analyst
       img: 2
     - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: He is still thinking..
       job: HR Manager
       img: 3
   section5: true
