@@ -18,7 +18,7 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form{{ with $action }} action="{{ . }}"{{end}}{{ with $method }} method="{{ . }}"{{end}}>
+          <form{{ with $action }} action="{{ . }}"{{end}}{{ with $method }} method="{{ . }}"{{end}} netlify action="/thank-you/" method="POST" data-netlify="true">
             <div class="columns is-multiline">
               <div class="column is-6">
                 <input class="input is-medium" name="name" type="text" placeholder="Enter your name">
@@ -30,7 +30,7 @@
                 <textarea class="textarea" name="message" rows="10" placeholder="Write someting..."></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">{{ $buttonText }}</button>
+                <button type="submit" class="button cta is-large primary-btn raised is-clear">{{ $buttonText }}</button>
               </div>
             </div>
           </form>
