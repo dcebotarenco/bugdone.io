@@ -1,4 +1,5 @@
 baseURL: https://bugdone.io/
+canonifyURLs: true
 languageCode: en-us
 title: bugdone.io
 theme: hugo-fresh
@@ -10,7 +11,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Allows you to write raw html in your md files
-canonifyURLs: true
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
