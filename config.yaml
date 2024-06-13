@@ -1,5 +1,5 @@
 baseURL: "https://dcebotarenco.github.io/bugdone.io"
-relativeURLs: true
+# relativeURLs: true
 languageCode: en-us
 title: bugdone.io
 theme: hugo-fresh
