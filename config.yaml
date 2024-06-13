@@ -1,4 +1,4 @@
-baseURL: https://bugdone.io/
+baseURL: /bugdone.io
 canonifyURLs: true
 languageCode: en-us
 title: bugdone.io
